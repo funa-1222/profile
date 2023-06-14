@@ -8,6 +8,7 @@ function addforecast(tenki) {
     document.getElementById('header').appendChild(h2);
 }
 
+//fetch()でGETリクエストを送信し、結果をJSONで取得
 fetch(WEATHER_FORECAST)
   .then(res => res.json())
   .then(data => data[0].timeSeries[0].areas[0].weathers[1])
