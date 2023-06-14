@@ -1,0 +1,26 @@
+body {
+    background-color:#ffffe0;
+    margin:0;
+    height:100%;
+}
+
+header {
+    background-color: #bbe2f1;
+    padding:0;
+    margin-top:0;
+    height:120px;
+}
+
+header h1 {
+    line-height:120px;
+    margin:0;
+}
+
+.img_name {
+    text-align: center;
+}
+
+.img_name img {
+    height:400px;
+    width:auto;
+}
