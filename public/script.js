@@ -5,7 +5,7 @@ const WEATHER_FORECAST = "https://www.jma.go.jp/bosai/forecast/data/forecast/130
 function addforecast(tenki) {
     const h2 = document.createElement("h2");
     h2.textContent = tenki;
-    document.getElementById('header').appendChild(h2);
+    document.getElementById('mark').appendChild(h2);
 }
 
 //fetch()でGETリクエストを送信し、結果をJSONで取得

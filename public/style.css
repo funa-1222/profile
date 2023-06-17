@@ -6,28 +6,39 @@ body {
 
 header {
     background-color: #bbe2f1;
-    padding:0 30px;
+    padding:0 5%;
     margin-top:0;
-    align-items: center;
-    display:flex;
-    justify-content: space-between;
-}
-
-main {
-    padding:20px;
 }
 
 header h1 {
     margin:0;
     font-family:cursive;
+    font-size:60px;
+}
+
+#mark {
+    align-items: center;
+    display:flex;
+    justify-content: space-between;
+}
+
+#mark img {
+    width:3%;
+    height:auto;
+}
+
+main {
+    padding:10%;
 }
 
 .img_name {
     text-align: center;
-    margin:20px 300px;
-    padding:20px;
+    margin:5% 20%;
+    padding:2%;
     border:dotted 2px #006eb0;
     border-radius:30px;
+    /* border-radius:20%; */
+    flex-wrap: wrap;
 }
 
 .img_name h2 {
@@ -39,6 +50,6 @@ header h1 {
 }
 
 .img_name img {
-    height:400px;
-    width:auto;
+    width:50%;
+    height:auto;
 }
