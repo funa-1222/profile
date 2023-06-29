@@ -14,6 +14,7 @@ header h1 {
     margin:0;
     font-family:cursive;
     font-size:60px;
+    text-align: center;
 }
 
 #mark {
@@ -28,7 +29,7 @@ header h1 {
 }
 
 main {
-    padding:10%;
+    padding:3%;
 }
 
 .img_name {
