@@ -1,9 +1,11 @@
+import Link from "next/link"
 import Images from "./Images"
 import nano_block from "@/public/imgs/hobby2.jpeg"
 
 const MyHobbys = () => {
     return (
         <>
+            <Link href="/">プロフィールページへ</Link>
             <h1>サッカー</h1>
             <h2>始めた時期</h2>
             <p>中学1年生</p>

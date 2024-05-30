@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 const MyProfile = () => {
     return (
         <>
@@ -26,7 +28,8 @@ const MyProfile = () => {
 
             <h2>趣味</h2>
             <p>サッカー、ナノブロック、ペーパーナノ</p>
-            <a>趣味紹介ページ</a>
+            {/* <a>趣味紹介ページ</a> */}
+            <Link href="/hobby">趣味紹介ページ</Link>
 
             <h2>将来の夢</h2>
             <p>自分だけの趣味部屋を作ること</p>
