@@ -8,7 +8,7 @@ import MyHobbys from "@/components/MyHobbys";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
+export default function Hobby() {
   return (
     <>
       <Head>
