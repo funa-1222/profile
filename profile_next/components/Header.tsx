@@ -1,10 +1,13 @@
 import Images from "./Images"
 import github from "@/public/imgs/github-mark.png"
 
-const Header = () => {
+type titleProps = {
+    title: string
+}
+const Header: React.FC<titleProps> = (props) => {
     return (
         <header>
-            <h1>Profile</h1>
+            <h1>{props.title}</h1>
             <div id="mark">
                 {/* ここに東京の天気を表示させたい！　*/}
                 <a href="https://github.com/funa-1222">
