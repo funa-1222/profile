@@ -17,7 +17,7 @@ const MyHobbys = () => {
 
             <h1>ナノブロック</h1>
             <div>
-                <Images src={nano_block} alt="my photo" width={500} height={500} />
+                <Images src={nano_block} alt="my photo" />
             </div>
         </>
     )

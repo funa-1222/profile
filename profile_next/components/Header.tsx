@@ -13,7 +13,7 @@ const Header: React.FC<titleProps> = (props) => {
             <div id="mark">
                 {/* ここに東京の天気を表示させたい！　*/}
                 <a href="https://github.com/funa-1222">
-                    <Images src={github} alt='my-github' width={100} height={100} />
+                    <Images src={github} alt='my-github' />
                 </a>
             </div>
         </header>
