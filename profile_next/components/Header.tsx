@@ -1,3 +1,5 @@
+import styles from "@/components/Header.module.css"
+
 import Images from "./Images"
 import github from "@/public/imgs/github-mark.png"
 

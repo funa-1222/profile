@@ -1,3 +1,4 @@
+import styles from "@/components/Myprofile.module.css"
 import Link from "next/link"
 
 const MyProfile = () => {

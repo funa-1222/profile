@@ -1,3 +1,4 @@
+import styles from "@/components/MyHobbys.module.css"
 import Link from "next/link"
 import Images from "./Images"
 import nano_block from "@/public/imgs/hobby2.jpeg"

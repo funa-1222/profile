@@ -1,7 +1,9 @@
+import styles from "@/components/Footer.module.css"
+
 const Footer = () => {
     return (
-        <footer>
-            <h2>連絡先：funabashi-ayaka@ed.tmu.ac.jp</h2>
+        <footer className={styles.footer}>
+            <h3>連絡先：funabashi-ayaka@ed.tmu.ac.jp</h3>
         </footer>
     )
 }
