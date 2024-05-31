@@ -3,7 +3,7 @@ import Link from "next/link"
 
 const MyProfile = () => {
     return (
-        <>
+        <div className={styles.profile}>
             <h2>誕生日</h2>
             <p>2001/12/22</p>
             <h2>出身</h2>
@@ -35,7 +35,7 @@ const MyProfile = () => {
             <h2>将来の夢</h2>
             <p>自分だけの趣味部屋を作ること</p>
             <p>そこでナノブロックなどを作り、作ったもの飾る！！</p>
-        </>
+        </div>
     )
 }
 

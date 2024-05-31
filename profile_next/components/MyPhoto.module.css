@@ -1,0 +1,14 @@
+.img_name {
+    text-align: center;
+    margin: 5% 20%;
+    padding: 2%;
+    border: dotted 2px #006eb0;
+    border-radius: 30px;
+    /* border-radius:20%; */
+    flex-wrap: wrap;
+}
+
+.img_name img {
+    width: 50%;
+    height: auto;
+}
