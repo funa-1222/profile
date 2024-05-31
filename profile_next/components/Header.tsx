@@ -8,8 +8,8 @@ type titleProps = {
 }
 const Header: React.FC<titleProps> = (props) => {
     return (
-        <header>
-            <h1>{props.title}</h1>
+        <header className={styles.header}>
+            <h1 className={styles.title}>{props.title}</h1>
             <div id="mark">
                 {/* ここに東京の天気を表示させたい！　*/}
                 <a href="https://github.com/funa-1222">
