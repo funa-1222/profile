@@ -1,11 +1,11 @@
 import Head from "next/head";
-import Image from "next/image";
+// import Image from "next/image";
 import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-import MyPhoto from "@/components/MyPhoto";
-import MyProfile from "@/components/MyProfile";
+// import styles from "@/styles/Home.module.css";
+import Footer from "@/src/components/Footer";
+import Header from "@/src/components/Header";
+import MyPhoto from "@/src/components/MyPhoto";
+import MyProfile from "@/src/components/MyProfile";
 
 const inter = Inter({ subsets: ["latin"] });
 
