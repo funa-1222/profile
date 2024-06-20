@@ -1,6 +1,6 @@
 import styles from "@/src/components/Header.module.css"
 
-import Images from "./Images"
+import Images from "../Images"
 import github from "@/public/imgs/github-mark.png"
 
 import React from 'react'
@@ -9,7 +9,7 @@ type titleProps = {
     title: string
 }
 
-// const WEATHER_FORECAST = "https://api.openweathermap.org/data/2.5/weather?q=Tokyo&appid=1e52a15d7f2be3f251016d63e908b94d";
+// 
 
 const Header: React.FC<titleProps> = (props) => {
 
