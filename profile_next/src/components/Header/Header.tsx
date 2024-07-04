@@ -1,4 +1,4 @@
-import styles from "@/src/components/Header.module.css"
+import styles from "@/src/components/Header/Header.module.css"
 
 import Images from "../Images"
 import github from "@/public/imgs/github-mark.png"
