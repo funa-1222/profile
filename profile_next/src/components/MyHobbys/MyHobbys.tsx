@@ -1,6 +1,6 @@
-import styles from "@/components/MyHobbys.module.css"
+import styles from "./MyHobbys.module.css"
 import Link from "next/link"
-import Images from "./Images"
+import Images from "@/src/components/Images"
 import nano_block from "@/public/imgs/hobby2.jpeg"
 
 const MyHobbys = () => {
@@ -16,7 +16,7 @@ const MyHobbys = () => {
             <p>フェイント</p>
 
             <h1>ナノブロック</h1>
-            <div>
+            <div className={styles.size}>
                 <Images src={nano_block} alt="my photo" />
             </div>
         </>
