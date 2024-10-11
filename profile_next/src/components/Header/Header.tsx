@@ -4,6 +4,7 @@ import Images from "../Images"
 import github from "@/public/imgs/github-mark.png"
 
 import React from 'react'
+import Link from "next/link"
 
 type titleProps = {
     title: string
@@ -21,9 +22,14 @@ const Header: React.FC<titleProps> = (props) => {
     return (
         <header className={styles.header}>
             <h1 className={styles.title}>{props.title}</h1>
-            <div id="mark">
+            <div className={styles.items}>
+                <div className={styles.links}>
+                    <Link className={styles.link} href="/">TOP</Link>
+                    <Link className={styles.link} href="/study">研究紹介</Link>
+                    <Link className={styles.link} href="/hobby">趣味紹介</Link>
+                </div>
                 {/* ここに東京の天気を表示させたい！　*/}
-                <a href="https://github.com/funa-1222">
+                <a className={styles.github} href="https://github.com/funa-1222">
                     <Images src={github} alt='my-github' />
                 </a>
             </div>

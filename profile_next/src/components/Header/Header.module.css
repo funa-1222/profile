@@ -10,3 +10,23 @@
     font-size: 60px;
     text-align: center;
 }
+
+.github img {
+    width: 25%;
+    height: auto;
+}
+
+.link {
+    color: blue;
+    text-decoration: underline;
+}
+
+.links a {
+    padding: 10px;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
