@@ -4,8 +4,8 @@ import { Inter } from "next/font/google";
 // import styles from "@/styles/Home.module.css";
 import Footer from "@/src/components/Footer/Footer";
 import Header from "@/src/components/Header/Header";
-import MyPhoto from "@/src/components/MyPhoto";
-import MyProfile from "@/src/components/MyProfile";
+import MyPhoto from "@/src/components/MyPhoto/MyPhoto";
+import MyProfile from "@/src/components/MyProfile/MyProfile";
 
 const inter = Inter({ subsets: ["latin"] });
 
