@@ -4,8 +4,6 @@ import Link from "next/link"
 const MyProfile = () => {
     return (
         <div className={styles.profile}>
-            <h2>誕生日</h2>
-            <p>2001/12/22</p>
             <h2>出身</h2>
             <p>神奈川県</p>
             <h2>大学、専攻</h2>
