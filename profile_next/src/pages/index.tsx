@@ -6,6 +6,7 @@ import Footer from "@/src/components/Footer/Footer";
 import Header from "@/src/components/Header/Header";
 import MyPhoto from "@/src/components/MyPhoto/MyPhoto";
 import MyProfile from "@/src/components/MyProfile/MyProfile";
+import Main from "../components/Main/Main";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,11 +21,10 @@ export default function Profile() {
       </Head>
 
       <Header title="Profile" />
-
-      <MyPhoto />
-
-      <MyProfile />
-
+      <Main>
+        <MyPhoto />
+        <MyProfile />
+      </Main>
       <Footer />
     </>
   );

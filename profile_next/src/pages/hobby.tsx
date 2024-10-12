@@ -5,6 +5,7 @@ import styles from "@/styles/Home.module.css";
 import Footer from "@/src/components/Footer/Footer";
 import Header from "@/src/components/Header/Header";
 import MyHobbys from "@/src/components/MyHobbys/MyHobbys";
+import Main from "../components/Main/Main";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,7 +20,9 @@ export default function Hobby() {
       </Head>
 
       <Header title="My Hobby" />
-      <MyHobbys />
+      <Main>
+        <MyHobbys />
+      </Main>
       <Footer />
     </>
   );

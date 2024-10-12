@@ -5,6 +5,7 @@ import { Inter } from "next/font/google";
 import Footer from "@/src/components/Footer/Footer";
 import Header from "@/src/components/Header/Header";
 import MyStudy from "../components/MyStudy/MyStudy";
+import Main from "../components/Main/Main";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,7 +20,9 @@ export default function Study() {
             </Head>
 
             <Header title="Study" />
-            <MyStudy />
+            <Main>
+                <MyStudy />
+            </Main>
             <Footer />
         </>
     );
