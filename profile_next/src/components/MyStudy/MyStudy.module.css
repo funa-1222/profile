@@ -1,0 +1,27 @@
+.video video {
+    width: 100%;
+    height: auto;
+}
+
+.video {
+    width: 30%;
+    height: auto;
+    margin: 2% 10%;
+}
+
+.poster {
+    width: 30%;
+    height: auto;
+    margin: 2% 10%;
+}
+
+.poster img {
+    width: 100%;
+    height: auto;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
