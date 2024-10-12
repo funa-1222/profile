@@ -29,7 +29,7 @@ const Header: React.FC<titleProps> = (props) => {
                     <Link className={styles.link} href="/hobby">趣味紹介</Link>
                 </div>
                 {/* ここに東京の天気を表示させたい！　*/}
-                <a className={styles.github} href="https://github.com/funa-1222">
+                <a className={styles.github} href="https://github.com/funa-1222/profile">
                     <Images src={github} alt='my-github' />
                 </a>
             </div>
