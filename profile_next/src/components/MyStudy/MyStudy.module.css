@@ -19,9 +19,3 @@
     width: 100%;
     height: auto;
 }
-
-.items {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
