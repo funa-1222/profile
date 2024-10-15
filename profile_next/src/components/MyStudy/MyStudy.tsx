@@ -1,4 +1,3 @@
-// import styles from "../../../public/imgs/"
 import styles from "./MyStudy.module.css"
 import Images from "../Images"
 import posterB4 from "@/public/imgs/B4Graduattion.jpg"
@@ -19,11 +18,10 @@ const MyStudy = () => {
             <div>
                 <h1>修士1年前期</h1>
                 <h2>現実空間にモノレールを走らせてみた！</h2>
+
                 <div className={styles.items}>
                     <div className={styles.video}>
-                        <video controls>
-                            <source src="/imgs/monorail.mp4" type="video/mp4" />
-                        </video>
+                        <iframe width="407" height="724" src="https://www.youtube.com/embed/s99GN42lYiI" title="monorail" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
                     </div>
                     <div className={styles.poster}>
                         <Images src={posterM1A} alt="my poster" />
@@ -36,7 +34,6 @@ const MyStudy = () => {
                     <li>現実空間の空間認識を行うことで仮想物体が現実空間の物体をすり抜けることがないようにする。</li>
                     <li>引き続き仮想物体の制御方法を検討する。</li>
                 </ul>
-                {/* <p>現実空間の空間認識を行うことで仮想物体が現実空間の物体をすり抜けることがないようにする。</p> */}
             </div>
         </>
     )
