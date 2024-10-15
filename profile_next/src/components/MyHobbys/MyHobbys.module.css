@@ -1,4 +1,19 @@
 .size img {
-    width: 30%;
+    width: 40%;
     height: auto;
+}
+
+.size {
+    text-align: center;
+    padding: 20px;
+}
+
+.line {
+    margin: 20px 0px;
+}
+
+.soccer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
