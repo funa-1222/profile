@@ -8,7 +8,7 @@ const MyStudy = () => {
     return (
         <>
             <div>
-                <h1>学4年</h1>
+                <h1>学部4年</h1>
                 <h2>現実の物体と仮想物体の挙動の違いは？</h2>
                 <div className={styles.items}>
                     <div className={styles.poster}>
